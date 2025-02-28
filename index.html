@@ -1,48 +1,111 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Language" content="cs" />
-  <title>Webhosting je aktivní</title>
-  <meta name="robots" content="noindex,follow" />
-  <link rel="stylesheet" type="text/css" href="https://hosting.wedos.com/css/default-pages.css" />
- </head>
- <body class="web_default">
- 
- <div id="page">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
 
-  <div id="header">
-   <img src="https://hosting.wedos.com/images/default-pages/logo.png" alt="WEDOS Internet, a.s." />
-  </div>
-   
-  <div id="content">
-   <img src="https://hosting.wedos.com/images/default-pages/tick.png" alt="OK" />
-   <h1>Webhosting je aktivní</h1>
-   <p>Webhosting pro tuto doménu je aktivní. Přes FTP nahrajte potřebné soubory a poté tento soubor <b>index.html</b> smažte.</p>
-   <p>Ahoj!</p>
-   <p>Další informace a návody hledejte ve <strong><a href="https://kb.wedos.com/">znalostní bázi WEDOS</a></strong>.</p>
-  </div>
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
 
-  <div id="footer"> 
-    <p><strong><a href="https://hosting.wedos.com/">Hosting WEDOS</a></strong> - <a href="https://hosting.wedos.com/cs/domeny.html">registrace domén</a>, <a href="https://hosting.wedos.com/cs/webhosting.html">webhosting</a>, <a href="https://hosting.wedos.com/cs/dedikovane-servery.html">serverhosting</a></p>
-  </div>
-  
- </div>  
-  
-  
-<script type="text/javascript">
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-1217884-16']);
-  _gaq.push(['_trackPageview']);
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
 
-</script>
+        section {
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 800px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
- </body>
+        .project {
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a tech enthusiast working on various projects related to [your fields of interest].</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>A brief description of your first project. Link: <a href="#">GitHub</a></p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>A brief description of your second project. Link: <a href="#">GitHub</a></p>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>Blog Post Title</h3>
+            <p>A short introduction to your blog post. You can add more details here.</p>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out at: <a href="mailto:your.email@domain.com">your.email@domain.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // You can add JavaScript functionality here, like a project filter or dynamic blog post loading.
+    </script>
+</body>
 </html>
